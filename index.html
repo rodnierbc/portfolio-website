@@ -1,0 +1,166 @@
+<html>
+<head class="" lang="en" dir="ltr">
+  <title>Portfolio</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+</head>
+  <body>
+    <div class="container my-table-style">
+      <div class="row jumbotron">
+        <div class="col-md-7">
+           <div class="row">
+             <div class="img-fluid" alt="Responsive image">
+               <img src="img/main-img.jpeg">
+             </div>
+           </div>
+        </div>
+        <div class="col-md-5">
+          <div class="page-header">
+            <h1 class="main-title">I'm Ronny<small>Web developer</small></h1>
+
+          </div>
+          <div class="div-knowMe">
+            <button id="KnowMe" class="btn KnowMe">Know me better</button>
+          </div>
+        </div>
+      </div>
+      <div class="row myProjects">
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <h1 class="panel-title">Projects</h1>
+          </div>
+          <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Description</th>
+                  <th>Languages</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="https://github.com/rodnierbc/wikipedia-page">Wikipedia</a></td>
+                  <td>Rebuild the Wikipedia homepage</td>
+                  <td>HTML, CSS</td>
+                </tr>
+                <tr>
+                  <td><a href="https://github.com/rodnierbc/Resort">Resort</a></td>
+                  <td>This website including pictures and descriptions of diferents options for your vacations.</td>
+                  <td>HTML, CSS</td>
+                </tr>
+                <tr>
+                  <td><a href="https://github.com/rodnierbc/miami">Miami Vacation</a></td>
+                  <td> This website include a list of vacation packages available to visit Miami Beach. Each package should include a cost, the date or range of dates its available, and the activities included in the package</td>
+                  <td>HTML, CSS</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div id="MoreAboutMe" class="row moreAboutMe">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h1 class="panel-title">About Me</h1>
+          </div>
+          <div class="panel-body">
+            <h4>Sumary:</h4>
+            <p>Software developer with a strong educational background. Skill with  programming tools complemented by proven ability to assimilate and rapidly utilize emerging technologies. Experience developing comprehensive algorithms and data-processing.</p>
+
+            <h4>Education:</h4>
+            <p>University: <span class="important">Univeridad Central Marta Abreu de las Villas</span>,  Santa Clara Cuba</p>
+            <ul>
+              <li>Bachelor <span class="important">Computer Science 2013</span></li>
+            </ul>
+
+            <h4>Professional Experience:</h4>
+            <h5>Software development team Oil Refinery <span class="important">CuvenPetrol SA Cienfuegos Cuba </span></h5>
+            <ul>
+                 <li>Designing computer software for industrial,  applications in PHP.</li>
+                 <li>Adapting software to new hardware or upgrade interfaces and improve performance.</li>
+                 <li>Consult with customers on project status, proposals and technical issues.</li>
+                 <li>Advise customer on perform and maintenance of software systems.</li>
+                 <li>Prepare reports and correspondence concerning project specifications, activities and status.</li>
+            </ul>
+
+
+
+            <div id="MoreAboutMe" class="row">
+              <div class="col-md-4">
+                <div class="panel panel-warning">
+                  <div class="panel-heading">
+                    <h1 class="panel-title">Skills</h1>
+                  </div>
+                  <div class="panel-body">
+                    <ol>
+                      <li>Programming languages: Java (J2EE, EJB, JPA, JSF), JavaScript, PHP, HTML / HTML5</li>
+                      <li>Model View Controller (MVC)</li>
+                      <li>Business intelligence</li>
+                      <li>YII (Code Generator and Model View Controller, PHP)</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-warning">
+                  <div class="panel-heading">
+                    <h1 class="panel-title">Hobbies</h1>
+                  </div>
+                  <div class="panel-body">
+                    <ul>
+                      <li>Practice boxing</li>
+                      <li>Traveling</li>
+                      <li>Work out</li>
+                      <li>Watch tv series</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-warning">
+                  <div class="panel-heading">
+                    <h1 class="panel-title">Interests</h1>
+                  </div>
+                  <div class="panel-body">
+                    <ul>
+                      <li>learn new technologies related to software development</li>
+                      <li>Improve my English language</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="row jumbotron main-title">
+          <div class="col-md-6">
+            <h5>Rodnier Borrego Clavero</h5>
+               <h5>(503) 737-8990 (C)</h5>
+              <h5>rodnierbc89@gmail.com</h5>
+          </div>
+          <div class="col-md-6">
+            <blockquote>
+              <p>"Contact me now!"</p>
+              <footer>I have the solution...</footer>
+            </blockquote>
+          </div>
+        </row>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+$(document).ready(function() {
+    $("#MoreAboutMe").hide();
+    $("#KnowMe").click(function(){
+      $("#MoreAboutMe").show("slow");
+      $("#KnowMe").hide();
+    });
+});
+</script>
