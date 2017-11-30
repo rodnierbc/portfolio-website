@@ -1,7 +1,7 @@
 # _{Portfolio}_
 
 #### _{Portfolio about me. Friday's Project.}, {11.17.17}_
-https://rodnierbc89.github.io/portfolio-website
+https://rodnierbc.github.io/portfolio-website
 #### By _**{Rodnier Borrego}**_
 
 ## Description
@@ -11,7 +11,7 @@ _{This webpage page talks about my educational, and work experience. It talks ab
 ## Setup/Installation Requirements
 
 * _cloned the repo
-_{https://github.com/rodnierbc89/portfolio-website.git}_
+_{https://github.com/rodnierbc/portfolio-website.git}_
 
 ## Contact  
 
